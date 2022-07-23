@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import "../App.css";
+import "./sidebar.css";
 import { HiHome, HiPhone } from "react-icons/hi";
 import { MdFeedback } from "react-icons/md";
 import{FaBars}from 'react-icons/fa'

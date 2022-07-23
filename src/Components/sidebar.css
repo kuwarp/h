@@ -1,0 +1,86 @@
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+  }
+  .brand-logo{
+    font-size: 18px;
+    line-height: 0;
+    color: rgb(166, 194, 214);
+  }
+   .route{
+    color: white;
+   }
+  
+   .side{
+    background: rgb(25, 25, 25);
+    color: white;
+    height: 100vh;
+    margin-top: 10px;
+    border-radius: 0px 23px 34px 0px;
+  }
+  
+  .connect{
+    display: flex;
+    gap:10px;
+    margin-left: 5px;
+    margin-top: 20px;
+    color:#fff;
+    overflow: hidden;
+    padding: 5px 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .connect:hover{
+    border: 3px solid rgb(89, 173, 246);
+    transition: 0.2s step-start;
+    font-size: 24px;
+    overflow: hidden;
+    /* background: rgb(105, 106, 105); */
+  }
+  
+   .social-icons{
+    display: flex;
+    overflow: hidden;
+    font-size: xx-large;
+    padding: 5px;
+    gap: 13px;
+    color: rgb(24, 21, 21);
+    margin-left: 4vh ;
+    margin-top: 17vh;
+    
+  }
+  
+  @media  (max-width:1200px)  {
+    .side{
+      height: 100vh;
+  
+    }
+    .social-icons{
+      overflow: hidden;
+      margin-top: 40vh ;
+      color: #fff;
+      /* visibility: hidden; */
+    }
+    
+  }
+  
+  @media  (min-width:1100px) {
+    .side{
+      height: 52vh;
+      overflow: hidden;
+  
+    }
+    .social-icons{
+      overflow: hidden;
+      margin-top: 4vh ;
+      color: #fff;
+      visibility: hidden;
+    }
+    
+  }
+  
+  
+  
