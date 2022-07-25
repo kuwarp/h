@@ -5,7 +5,7 @@ import AboutChampion from "./Pages/AboutChampion";
 import ContactUs from './Pages/ContactUs'
 import Certificates from'./Pages/Certificates'
 import Demox from './Pages/Demox'
-import Home from './Pages/Home'
+import Home from './Pages/Homepage/Home'
 import Sidebar from "./Components/Sidebar";
 const App = () => {
   return (
