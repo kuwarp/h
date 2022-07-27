@@ -79,10 +79,9 @@ const Sidebar = ({ children }) => {
         
        </section>
       </motion.div>
-
-      <main>{children}</main>
-      
+      <main className="child">{children}</main>
     </div>
+   
   );
 };
 

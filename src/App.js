@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css"
-import AboutChampion from "./Pages/AboutChampion";
-import ContactUs from './Pages/ContactUs'
-import Certificates from'./Pages/Certificates'
-import Demox from './Pages/Demox'
+import AboutChampion from "./Pages/Champion/AboutChampion";
+import ContactUs from './Pages/Contacts/ContactUs'
+import Certificates from'./Pages/certificates/Certificates'
+import Demox from './Pages/Feedback/Demox'
 import Home from './Pages/Homepage/Home'
 import Sidebar from "./Components/Sidebar";
 const App = () => {

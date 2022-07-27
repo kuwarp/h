@@ -1,8 +1,11 @@
 .main-cont{
-display: flex;
+display:inline-flex;
+
 }
-main{
-  padding:4px;
+.child{
+  padding:12px;
+  padding-left: 4px;
+  padding-bottom: 34px;
   font-size: xx-large;
   font-weight: 600;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -70,9 +73,7 @@ main{
       
       transition: all 0.2s step-end;
       border-radius: 0 23px;
-      
       font-size: 24px;
-     
       overflow: hidden;
       background: rgb(105, 106, 105);
     }
@@ -87,9 +88,9 @@ main{
   @media (min-width:50px) and (max-width:1100px){
     .side{
       overflow:hidden;
-      height: 100vh;
+      height: 50vh;
       width: 100%;
-      margin-left: 10px;
+      /* margin-left: 10px; */
     }
     .text-per{
       font-size: 20px;
