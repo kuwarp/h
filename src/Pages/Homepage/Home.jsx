@@ -1,6 +1,6 @@
 import React from 'react'
 import  './Home.css'
-import loc from '../../Images/trail-1.png';
+// import loc from '../../Images/trail-1.png';
 
 const Home = () => {
   return (
